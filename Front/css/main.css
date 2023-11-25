@@ -1,0 +1,59 @@
+* {
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .buttons-network {
+    position: fixed;
+    top: 35%;
+    /* bottom: 15px; */
+    left: 10px;
+  }
+  
+  .buttons-network__button {
+    width: 55px;
+    height: 55px;
+    display: block;
+    box-shadow: 0 3px 6px rgb(0, 0, 0, 0.2);
+    border-radius: 10px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+  
+    transition: all 0.3s ease;
+    margin-bottom: 15px;
+  }
+  
+  .buttons-network__button p {
+    display: none;
+  }
+  
+  .buttons-network__button:hover > p {
+    display: block;
+  }
+  
+  .buttons-network__button:hover {
+    width: 100%;
+    padding: 0 10px;
+  }
+  
+  .buttons-network__button:nth-child(1):hover {
+    color: #4267b2;
+  }
+  
+  .buttons-network__button:nth-child(2):hover {
+    color: #e1306c;
+  }
+  
+  .buttons-network__button:nth-child(3):hover {
+    color: #0e76a8; /* Whatsapp Color: #25d366 */
+  }
+  
+  .buttons-network__button:nth-child(4):hover {
+    color: gray;
+  }
